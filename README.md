@@ -1,16 +1,32 @@
 # Typing Garden
 
-A website where your typing grows a little digital garden.
+Typing Garden is a small creative coding project built with p5.js.
 
-Every key press adds something to the scene. Vowels grow flowers that slowly open up over time, while consonants create winding vines with leaves. Even the spacebar does something it sends a gentle ripple through the garden, like a breeze passing through.
+Instead of showing typed characters on the screen, each keypress grows something in a digital garden. Vowels create flowers, consonants grow vines, and pressing the spacebar creates a ripple effect across the garden.
 
-The idea is simple: instead of words appearing on a blank page, your typing gradually turns into a living landscape.
+I made this project to experiment with generative art and keyboard interactions. The idea was to turn typing into something visual and relaxing rather than displaying text normally.
 
-### What happens when you type?
+## Controls
 
-* **A, E, I, O, U** → a flower appears and blooms 
-* **Consonants** → a vine grows and twists 
-* **Spacebar** → a soft ripple comes in the garden 
+* A, E, I, O, U → Grow flowers
+* Other letters → Grow vines
+* Spacebar → Create a ripple/breath effect
+* Backspace → Remove the most recently added plant
+* Clear Garden button → Reset everything
 
-No score, no objective
-just type and watch the garden grow.
+## Features
+
+* Flowers slowly bloom after growing.
+* Vines grow in slightly different directions each time.
+* Leaves appear as vines get longer.
+* Plants gently sway to make the garden feel alive.
+* Simple counters track flowers, vines, and ripple effects.
+
+## Built With
+
+* HTML
+* CSS
+* JavaScript
+* p5.js
+
+This was mainly a fun project to explore animation, procedural generation, and interactive visuals.
