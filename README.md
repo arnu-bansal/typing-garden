@@ -30,3 +30,4 @@ I made this project to experiment with generative art and keyboard interactions.
 * p5.js
 
 This was mainly a fun project to explore animation, procedural generation, and interactive visuals.
+<img width="3000" height="1680" alt="image" src="https://github.com/user-attachments/assets/7fbe9b1e-8136-4bf8-a8c0-3386b834002e" />
