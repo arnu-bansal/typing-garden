@@ -25,10 +25,12 @@
 
     <script>
       document.getElementById('clear-btn').addEventListener('click', () => {
-        plants = [];
-        breaths = [];
-        stats = { flowers: 0, vines: 0, breaths: 0 };
-        updateStats();
+      state.plants  = [];
+state.breaths = [];
+state.stats   = { flowers: 0, vines: 0, breaths: 0 };
+updateStatsDisplay();
+
+    
       });
     </script>
     </body>
